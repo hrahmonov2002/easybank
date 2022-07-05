@@ -1,0 +1,36 @@
+.header__invite-button {
+  padding: 12px 35px 12px 35px;
+  font-size: 14px;
+  border: none;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  color: #fff;
+}
+
+.hero__invite-button {
+  padding: 12px 35px 12px 35px;
+  font-size: 14px;
+  border: none;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  color: #fff;
+}
+
+.links__info-content-button {
+  padding: 12px 35px 12px 35px;
+  font-size: 14px;
+  border: none;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  color: #fff;
+}
+
+@media only screen and  (max-width: 730px){
+  .header__invite-button {
+    display: none;
+  }
+
+  .hero__invite-button {
+    margin: 0;
+  }
+}
