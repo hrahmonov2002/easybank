@@ -1,0 +1,27 @@
+.nav__list {
+  font-family: 'Public Sans', sans-serif;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__item {
+  margin-right: 30px;
+}
+
+.nav__item--last {
+  margin: 0;
+}
+
+.nav__link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #9597A5;
+}
+
+@media only screen and (max-width: 730px){
+  .nav__list {
+   display: none;
+  }
+}
